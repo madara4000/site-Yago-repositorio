@@ -1,0 +1,56 @@
+body{
+    color:blue;
+    background-color: black;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+.pimg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid darkblue;
+  
+}
+.center{
+    text-align: center;
+}
+ .style{
+
+    color: grey;
+    
+    text-align: center;
+ }
+ footer img{
+    width: 20px;
+    height: 20px;
+ }
+ footer{
+     display:flex;
+     justify-content: center;
+ }
+ footer a {
+    margin: 20px ;
+    text-align: center;
+
+ }
+ footer p {
+    margin-top: 2px;
+ }
+ nav a:hover{
+    color:aqua;
+ }
+ footer p:hover{
+    color:aqua;
+ }
+ .container{
+    padding: 0px 50px;
+ }
